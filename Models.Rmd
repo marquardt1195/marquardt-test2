@@ -322,13 +322,13 @@ Weekly Post BO</i>
 
 
 <i> Daily Pre BO
-![](figures/models/Personal/AMR-daily-pre.png#round)
+![](Personal/AMR-daily-pre.png#round)
 
 Weekly Pre BO
-![](figures/models/Personal/AMR-weekly-pre.png#round)
+![](Personal/AMR-weekly-pre.png#round)
 
 Daily Post BO
-![](figures/models/Personal/AMR-daily-post.png#round)
+![](Personal/AMR-daily-post.png#round)
 
 Weekly Post BO</i>
 ![](figures/models/Personal/AMR-weekly-post.png#round)
