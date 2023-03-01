@@ -7,7 +7,7 @@ output:
 ---
 
 ```{r, include=FALSE}
-trade_results_final <- read.csv("Trade_Results_2023-csv.csv", na.strings = c("", "NA"))
+trade_results_final <- read.csv(sprintf("Trade_Results_%s.csv", Sys.Date()))
 ```
 
 ```{r, include = FALSE}

@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{r STEM Model, echo=FALSE, out.width="13%", fig.cap="Stock Feedback", fig.align='right'}
-knitr::include_graphics("../Red.jpg")
+knitr::include_graphics("figures/Red.png")
 ```
 
 ## Journal
@@ -47,7 +47,7 @@ In hindsight I can see how the 'breadth thrust' and new wave of setups made me o
 
 Down about 2.5%, or ~$360, as of this writing.
 
-![](AXON.png){width=49%}
-![](PRDO.png){width=49%}
+![](figures/AXON.png){width=49%}
+![](figures/PRDO.png){width=49%}
 
 ***
