@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>2023 Trade Results</title>
+
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="site_libs/react-17.0.0/react.min.js"></script>
+<script src="site_libs/react-17.0.0/react-dom.min.js"></script>
+<script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
+<link href="site_libs/reactable-0.4.3/reactable.css" rel="stylesheet" />
+<script src="site_libs/reactable-binding-0.4.3/reactable.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">2023 Trade Results</h1>
+
+</div>
+
+
+<p><br></p>
+<center>
+<div id="open-positions" class="section level2">
+<h2>Open Positions</h2>
+<div id="htmlwidget-d7dcfaeb91232d0d80dd" class="reactable html-widget " style="width:490px;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-d7dcfaeb91232d0d80dd">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"trade":[4,6,8,9,10,11],"stock_name":["VC","AXON","IBB","BIIB","ADEA","PRDO"],"weight_avg_buy":[144.61,190.22,137.079966666667,293.99,11.37,14.91],"stop_loss_dollar":[138.41,181.48,132.13,279.98,10.84,14.25],"stop_loss_percent":[-4.29,-4.59,-3.61,-4.77,-4.66,-4.43],"max_drawdown":[82.71,-26.22,-133.6491,-44.9832,-52.9999999999999,-46.2]},"columns":[{"id":"trade","name":"#","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"width":50},{"id":"stock_name","name":"Stock","type":"character","align":"center","footerStyle":{"fontWeight":"bold"},"width":70},{"id":"weight_avg_buy","name":"Cost Basis","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"format":{"cell":{"digits":2,"currency":"USD"},"aggregated":{"digits":2,"currency":"USD"}},"width":90},{"id":"stop_loss_dollar","name":"Stop Loss $","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":80},{"id":"stop_loss_percent","name":"Stop Loss %","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"footer":"-4.391667","width":90},{"id":"max_drawdown","name":"Risk","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"format":{"cell":{"digits":2,"currency":"USD"},"aggregated":{"digits":2,"currency":"USD"}},"cell":["+82.71","-26.22","-133.6491","-44.9832","-53","-46.2"],"footer":"$-221.34","style":[{"color":"#00cc00"},{"color":"#ff3333"},{"color":"#ff3333"},{"color":"#ff3333"},{"color":"#ff3333"},{"color":"#ff3333"}]}],"highlight":true,"outlined":true,"bordered":true,"striped":true,"width":"490px","theme":{"color":"hsl(233, 9%, 87%)","backgroundColor":"hsl(233, 9%, 19%)","borderColor":"hsl(233, 9%, 22%)","stripedColor":"hsl(233, 12%, 22%)","highlightColor":"hsl(233, 12%, 24%)","inputStyle":{"backgroundColor":"hsl(233, 9%, 25%)"},"selectStyle":{"backgroundColor":"hsl(233, 9%, 25%)"},"pageButtonHoverStyle":{"backgroundColor":"hsl(233, 9%, 25%)"},"pageButtonActiveStyle":{"backgroundColor":"hsl(233, 9%, 28%)"}},"dataKey":"60eba04b15d335543a1f9a85604dd157"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="recent-trades" class="section level2">
+<h2>Recent Trades</h2>
+<div id="htmlwidget-94378fa7cde83c2ddce1" class="reactable html-widget " style="width:350px;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-94378fa7cde83c2ddce1">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"trade":[9,7,5,4,3,2,1],"stock_name":["BIIB","RXDX","VTYX","VC","QSR","XLE","SLGN"],"pl_percent":[-2.88499608830233,-6.42057237660722,17.9113018597997,9.3957145820779,-2.08019294543263,-1.92403984286984,-1.40229666888111],"pl_dollar":[-16.9632,-38.7,125.2,95.11,-27.6000000000004,-51.6440000000002,-22.1640000000002]},"columns":[{"id":"trade","name":"#","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"width":40},{"id":"stock_name","name":"Stock","type":"character","align":"center","footerStyle":{"fontWeight":"bold"}},{"id":"pl_percent","name":"P/L %","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"format":{"cell":{"digits":2},"aggregated":{"digits":2}},"style":[{"color":"#ff3333"},{"color":"#ff3333"},{"color":"#00cc00"},{"color":"#00cc00"},{"color":"#ff3333"},{"color":"#ff3333"},{"color":"#ff3333"}]},{"id":"pl_dollar","name":"P/L $","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"format":{"cell":{"digits":2,"currency":"USD"},"aggregated":{"digits":2,"currency":"USD"}},"style":[{"color":"#ff3333"},{"color":"#ff3333"},{"color":"#00cc00"},{"color":"#00cc00"},{"color":"#ff3333"},{"color":"#ff3333"},{"color":"#ff3333"}]}],"highlight":true,"outlined":true,"bordered":true,"striped":true,"width":"350px","theme":{"color":"hsl(233, 9%, 87%)","backgroundColor":"hsl(233, 9%, 19%)","borderColor":"hsl(233, 9%, 22%)","stripedColor":"hsl(233, 12%, 22%)","highlightColor":"hsl(233, 12%, 24%)","inputStyle":{"backgroundColor":"hsl(233, 9%, 25%)"},"selectStyle":{"backgroundColor":"hsl(233, 9%, 25%)"},"pageButtonHoverStyle":{"backgroundColor":"hsl(233, 9%, 25%)"},"pageButtonActiveStyle":{"backgroundColor":"hsl(233, 9%, 28%)"}},"dataKey":"c8e62b58a58fe73dfa9369bf23e16f19"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<p><br></p>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
+<div id="total" class="section level3">
+<h3>Total</h3>
+<table class="table table-bordered table-hover" style="width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+P/L $
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+P/L %
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Avg % Gain
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Avg % Loss
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Batting Avg %
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Win/ Loss
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Adj Win/ Loss
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+# Wins
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+# Losses
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Break- even Trades
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Total Trades
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Avg $ Gain/ Trade
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Avg $ Loss/ Trade
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Avg Days Gain
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: cornflowerblue !important;font-size: 14px;vertical-align: middle !important;">
+Avg Days Loss
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;color: #ff3333 !important;">
+-$14.91
+</td>
+<td style="text-align:center;color: #ff3333 !important;">
+-0.66
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+17.91
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+-3.09
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+20
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+5.79
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+1.45
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+11
+</td>
+<td style="text-align:center;">
+$125.20
+</td>
+<td style="text-align:center;">
+-$35.03
+</td>
+<td style="text-align:center;">
+10
+</td>
+<td style="text-align:center;">
+7.25
+</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="monthly" class="section level3">
+<h3>Monthly</h3>
+<table class="table table-bordered table-hover table-striped table-condensed" style="width: auto !important; ">
+<thead>
+<tr>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Month
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+P/L $
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+P/L %
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Avg % Gain
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Avg % Loss
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Batting Avg %
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Win/ Loss
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Adj Win/ Loss
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+# Wins
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+# Losses
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Break- even Trades
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Total Trades
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+LG % Gain
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+LG % Loss
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Avg Days Gain
+</th>
+<th style="text-align:center;font-weight: bold;color: black !important;background-color: #a9c5eb !important;font-size: 14px;vertical-align: middle !important;">
+Avg Days Loss
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">
+January
+</td>
+<td style="text-align:center;color: #ff3333 !important;">
+-14.91
+</td>
+<td style="text-align:center;color: #ff3333 !important;">
+-0.66
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+17.91
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+-3.09
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+20
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+5.79
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+1.45
+</td>
+<td style="text-align:center;">
+1
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+9
+</td>
+<td style="text-align:center;">
+17.91
+</td>
+<td style="text-align:center;">
+-6.42
+</td>
+<td style="text-align:center;">
+10
+</td>
+<td style="text-align:center;">
+7.25
+</td>
+</tr>
+<tr>
+<td style="text-align:center;">
+February
+</td>
+<td style="text-align:center;color: #00cc00 !important;">
+0.00
+</td>
+<td style="text-align:center;color: #00cc00 !important;">
+0.00
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+0.00
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+0.00
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+0
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+0.00
+</td>
+<td style="text-align:center;background-color: cornsilk !important;">
+0.00
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+2
+</td>
+<td style="text-align:center;">
+0.00
+</td>
+<td style="text-align:center;">
+0.00
+</td>
+<td style="text-align:center;">
+0
+</td>
+<td style="text-align:center;">
+0.00
+</td>
+</tr>
+</tbody>
+</table>
+<p><br> <br></p>
+</div>
+</div>
+<div id="data-tables" class="section level2">
+<h2>Data Tables</h2>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-21bae9b6007bd48e6336" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-21bae9b6007bd48e6336">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"month":["January","January","January","January","January"],"trade":[7,5,3,2,1],"stock_name":["RXDX","VTYX","QSR","XLE","SLGN"],"$ Profit/Loss":[-38.7,125.2,-27.6,-51.64,-22.16],"% Profit/Loss":[-6.42,17.91,-2.08,-1.92,-1.4]},"columns":[{"id":".details","name":"Details","type":null,"align":"center","footerStyle":{"fontWeight":"bold"},"sortable":false,"resizable":false,"filterable":false,"searchable":false,"width":80,"details":[{"name":"Reactable","attribs":{"data":{"trade":[7],"stock_name":["RXDX"],"entries":[5],"entry_price":[120.55],"entry_date":["1/26/2023"],"buy_quantity":[5],"cost_basis":[120.55],"stop_loss_dollar":[112.98],"stop_loss_percent":[-6.28],"exits":[5],"exit_price":[112.81],"exit_date":["1/26/2023"],"sell_quantity":[5],"sell_price":[112.81]},"columns":[{"id":"trade","name":"#","type":"numeric","align":"center","width":25},{"id":"stock_name","name":"Stock","type":"character","align":"center","width":60},{"id":"entries","name":"Entry","type":"numeric","align":"center","width":55},{"id":"entry_price","name":"Entry Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"entry_date","name":"Entry Date","type":"character","align":"center","width":90},{"id":"buy_quantity","name":"Buy Size","type":"numeric","align":"center","width":60},{"id":"cost_basis","name":"Avg Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"stop_loss_dollar","name":"$ Stop","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70,"style":{"color":"#990000"}},{"id":"stop_loss_percent","name":"% Stop","type":"numeric","align":"center","width":65,"style":{"color":"#990000"}},{"id":"exits","name":"Exit","type":"numeric","align":"center","width":50},{"id":"exit_price","name":"Exit Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"exit_date","name":"Exit Date","type":"character","align":"center","width":90},{"id":"sell_quantity","name":"Sell Size","type":"numeric","align":"center","width":60},{"id":"sell_price","name":"Sell Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70}],"outlined":true,"theme":{"borderColor":"gray","headerStyle":{"background":"lightgray"}},"dataKey":"d09e8ded751704da568a69e40ec77853","static":false,"nested":true},"children":[]},{"name":"Reactable","attribs":{"data":{"trade":[5,5,5],"stock_name":["VTYX",null,null],"entries":[20,"NA","NA"],"entry_price":[34.95,"NA","NA"],"entry_date":["1/23/2023",null,null],"buy_quantity":[20,"NA","NA"],"cost_basis":[34.95,"NA","NA"],"stop_loss_dollar":[32.51,"NA","NA"],"stop_loss_percent":[-6.98,"NA","NA"],"exits":[10,5,5],"exit_price":[40.78,40.19,43.09],"exit_date":["1/27/2023","2/1/2023","2/2/2023"],"sell_quantity":[20,"NA","NA"],"sell_price":[41.21,"NA","NA"]},"columns":[{"id":"trade","name":"#","type":"numeric","align":"center","width":25},{"id":"stock_name","name":"Stock","type":"character","align":"center","width":60},{"id":"entries","name":"Entry","type":"numeric","align":"center","width":55},{"id":"entry_price","name":"Entry Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"entry_date","name":"Entry Date","type":"character","align":"center","width":90},{"id":"buy_quantity","name":"Buy Size","type":"numeric","align":"center","width":60},{"id":"cost_basis","name":"Avg Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"stop_loss_dollar","name":"$ Stop","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70,"style":{"color":"#990000"}},{"id":"stop_loss_percent","name":"% Stop","type":"numeric","align":"center","width":65,"style":{"color":"#990000"}},{"id":"exits","name":"Exit","type":"numeric","align":"center","width":50},{"id":"exit_price","name":"Exit Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"exit_date","name":"Exit Date","type":"character","align":"center","width":90},{"id":"sell_quantity","name":"Sell Size","type":"numeric","align":"center","width":60},{"id":"sell_price","name":"Sell Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70}],"outlined":true,"theme":{"borderColor":"gray","headerStyle":{"background":"lightgray"}},"dataKey":"13bdd00e281d285acd67045cabbd9b2f","static":false,"nested":true},"children":[]},{"name":"Reactable","attribs":{"data":{"trade":[3],"stock_name":["QSR"],"entries":[20],"entry_price":[66.34],"entry_date":["1/13/2023"],"buy_quantity":[20],"cost_basis":[66.34],"stop_loss_dollar":[64.98],"stop_loss_percent":[-2.05],"exits":[20],"exit_price":[64.96],"exit_date":["1/18/2023"],"sell_quantity":[20],"sell_price":[64.96]},"columns":[{"id":"trade","name":"#","type":"numeric","align":"center","width":25},{"id":"stock_name","name":"Stock","type":"character","align":"center","width":60},{"id":"entries","name":"Entry","type":"numeric","align":"center","width":55},{"id":"entry_price","name":"Entry Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"entry_date","name":"Entry Date","type":"character","align":"center","width":90},{"id":"buy_quantity","name":"Buy Size","type":"numeric","align":"center","width":60},{"id":"cost_basis","name":"Avg Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"stop_loss_dollar","name":"$ Stop","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70,"style":{"color":"#990000"}},{"id":"stop_loss_percent","name":"% Stop","type":"numeric","align":"center","width":65,"style":{"color":"#990000"}},{"id":"exits","name":"Exit","type":"numeric","align":"center","width":50},{"id":"exit_price","name":"Exit Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"exit_date","name":"Exit Date","type":"character","align":"center","width":90},{"id":"sell_quantity","name":"Sell Size","type":"numeric","align":"center","width":60},{"id":"sell_price","name":"Sell Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70}],"outlined":true,"theme":{"borderColor":"gray","headerStyle":{"background":"lightgray"}},"dataKey":"f34009e54db5cd9908530b1965906284","static":false,"nested":true},"children":[]},{"name":"Reactable","attribs":{"data":{"trade":[2,2],"stock_name":["XLE",null],"entries":[20,10],"entry_price":[89.1997,90.015],"entry_date":["1/13/2023","1/24/2023"],"buy_quantity":[30,"NA"],"cost_basis":[89.47146667,"NA"],"stop_loss_dollar":[86.88,"NA"],"stop_loss_percent":[-2.89,"NA"],"exits":[30,"NA"],"exit_price":[87.75,"NA"],"exit_date":["2/1/2023",null],"sell_quantity":[30,"NA"],"sell_price":[87.75,"NA"]},"columns":[{"id":"trade","name":"#","type":"numeric","align":"center","width":25},{"id":"stock_name","name":"Stock","type":"character","align":"center","width":60},{"id":"entries","name":"Entry","type":"numeric","align":"center","width":55},{"id":"entry_price","name":"Entry Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"entry_date","name":"Entry Date","type":"character","align":"center","width":90},{"id":"buy_quantity","name":"Buy Size","type":"numeric","align":"center","width":60},{"id":"cost_basis","name":"Avg Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"stop_loss_dollar","name":"$ Stop","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70,"style":{"color":"#990000"}},{"id":"stop_loss_percent","name":"% Stop","type":"numeric","align":"center","width":65,"style":{"color":"#990000"}},{"id":"exits","name":"Exit","type":"numeric","align":"center","width":50},{"id":"exit_price","name":"Exit Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"exit_date","name":"Exit Date","type":"character","align":"center","width":90},{"id":"sell_quantity","name":"Sell Size","type":"numeric","align":"center","width":60},{"id":"sell_price","name":"Sell Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70}],"outlined":true,"theme":{"borderColor":"gray","headerStyle":{"background":"lightgray"}},"dataKey":"4182520d48b49393142282e455ed9710","static":false,"nested":true},"children":[]},{"name":"Reactable","attribs":{"data":{"trade":[1,1],"stock_name":["SLGN",null],"entries":[30,"NA"],"entry_price":[52.685,"NA"],"entry_date":["1/13/2023",null],"buy_quantity":[30,"NA"],"cost_basis":[52.685,"NA"],"stop_loss_dollar":[51.1,"NA"],"stop_loss_percent":[-3.01,"NA"],"exits":[15,15],"exit_price":[52.3111,51.5813],"exit_date":["1/17/2023","1/18/2023"],"sell_quantity":[30,"NA"],"sell_price":[51.9462,"NA"]},"columns":[{"id":"trade","name":"#","type":"numeric","align":"center","width":25},{"id":"stock_name","name":"Stock","type":"character","align":"center","width":60},{"id":"entries","name":"Entry","type":"numeric","align":"center","width":55},{"id":"entry_price","name":"Entry Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"entry_date","name":"Entry Date","type":"character","align":"center","width":90},{"id":"buy_quantity","name":"Buy Size","type":"numeric","align":"center","width":60},{"id":"cost_basis","name":"Avg Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"stop_loss_dollar","name":"$ Stop","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70,"style":{"color":"#990000"}},{"id":"stop_loss_percent","name":"% Stop","type":"numeric","align":"center","width":65,"style":{"color":"#990000"}},{"id":"exits","name":"Exit","type":"numeric","align":"center","width":50},{"id":"exit_price","name":"Exit Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70},{"id":"exit_date","name":"Exit Date","type":"character","align":"center","width":90},{"id":"sell_quantity","name":"Sell Size","type":"numeric","align":"center","width":60},{"id":"sell_price","name":"Sell Price","type":"numeric","align":"center","format":{"cell":{"currency":"USD"},"aggregated":{"currency":"USD"}},"width":70}],"outlined":true,"theme":{"borderColor":"gray","headerStyle":{"background":"lightgray"}},"dataKey":"6239d2d3456ea6155a7d11e04a72b4e7","static":false,"nested":true},"children":[]}]},{"id":"month","name":"Month","type":"character","align":"center","footerStyle":{"fontWeight":"bold"},"width":110},{"id":"trade","name":"Trade","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"}},{"id":"stock_name","name":"Stock","type":"character","align":"center","footerStyle":{"fontWeight":"bold"},"footer":"Total"},{"id":"$ Profit/Loss","name":"$ Profit/Loss","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"format":{"cell":{"digits":2,"currency":"USD"},"aggregated":{"digits":2,"currency":"USD"}},"footer":"$-14.90","style":[{"color":"#ff3333"},{"color":"#00cc00"},{"color":"#ff3333"},{"color":"#ff3333"},{"color":"#ff3333"}]},{"id":"% Profit/Loss","name":"% Profit/Loss","type":"numeric","align":"center","footerStyle":{"fontWeight":"bold"},"format":{"cell":{"digits":2},"aggregated":{"digits":2}},"cell":["-6.42","+17.91","-2.08","-1.92","-1.4"],"style":[{"color":"#ff3333"},{"color":"#00cc00"},{"color":"#ff3333"},{"color":"#ff3333"},{"color":"#ff3333"}]}],"resizable":true,"searchable":true,"showPageSizeOptions":true,"highlight":true,"bordered":true,"striped":true,"showSortable":true,"theme":{"borderWidth":1.5,"stripedColor":"gray!6","highlightColor":"#E0EAF8","headerStyle":{"background":"lightgray","fontSize":18},"searchInputStyle":{"width":"100%"}},"dataKey":"1fdd16f84fe0dede26ad6dac2af93bdc"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<p><br></p>
+</div>
+<div id="plots" class="section level2">
+<h2>Plots</h2>
+<div id="profitloss" class="section level3">
+<h3>Profit/Loss %</h3>
+<p><br> <br></p>
+</div>
+<div id="profitloss-1" class="section level3">
+<h3>Profit/Loss $</h3>
+<p><br> <br></p>
+<p><kbd><img src="C:/Users/marqu/Desktop/Stocks/Educational/Figures/Marder-Tweet1.jpg" style="width:33.0%" /></kbd><kbd><img src="C:/Users/marqu/Desktop/Stocks/Educational/Figures/Minervini-Tweet1.jpg" style="width:33.0%" /></kbd><kbd><img src="C:/Users/marqu/Desktop/Stocks/Educational/Figures/Minervini-Tweet2.jpg" style="width:31.0%" /></kbd> <br> <br></p>
+</div>
+<div id="principal-balance" class="section level3">
+<h3>Principal Balance</h3>
+<p><br></p>
+</div>
+<div id="distribution-of-gains-losses" class="section level3">
+<h3>Distribution of Gains &amp; Losses</h3>
+<p><img src="Trade_Results_2023_files/figure-html/unnamed-chunk-18-1.png" width="672" /> <br> <br></p>
+</div>
+<div id="density-curve-of-gains-losses" class="section level3">
+<h3>Density Curve of Gains &amp; Losses</h3>
+<p><img src="Trade_Results_2023_files/figure-html/unnamed-chunk-19-1.png" width="672" /> <br></p>
+<p><kbd><img src="C:/Users/marqu/Desktop/Stocks/Educational/Figures/Minervini-Tweet4.jpg" style="width:30.0%" /></kbd><kbd><img src="C:/Users/marqu/Desktop/Stocks/Educational/Figures/Marder-Tweet2.jpg" style="width:35.0%" /></kbd><kbd><img src="C:/Users/marqu/Desktop/Stocks/Educational/Figures/Trader.jpg" style="width:32.0%" /></kbd></p>
+<br> <br>
+</center>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
