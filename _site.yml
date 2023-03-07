@@ -1,6 +1,6 @@
 name: "Results"
 navbar:
-  title: "<img src=\"figures/Rlogo.png\" style=\"float: left;\" width=\"80px\"/>"
+  title: "<img src=\"figures/Rstudio-logo.png\" style=\"float: left;\" width=\"80px\"/>"
   left:
     - text: "Journal"
       href: index.html
